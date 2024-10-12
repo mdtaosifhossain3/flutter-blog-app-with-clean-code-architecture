@@ -28,8 +28,8 @@ class _SplashViewState extends State<SplashView> {
         child: FadedScaleAnimation(
           child: Image.asset(
             "assets/images/logo.png",
-            width: 139,
-            height: 42,
+            width: 139.w,
+            height: 42.h,
           ),
         ),
       ),

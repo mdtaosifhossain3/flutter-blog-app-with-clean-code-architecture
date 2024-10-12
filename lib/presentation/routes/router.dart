@@ -19,6 +19,27 @@ class MyRouter {
           return const OnboardView();
         },
       ),
+      GoRoute(
+        path: "/${RoutesName.authView}",
+        name: RoutesName.authView,
+        builder: (BuildContext context, GoRouterState state) {
+          return const AuthView();
+        },
+      ),
+      GoRoute(
+        path: "/${RoutesName.loginView}",
+        name: RoutesName.loginView,
+        builder: (BuildContext context, GoRouterState state) {
+          return const AuthView();
+        },
+      ),
+      GoRoute(
+        path: "/${RoutesName.registerView}",
+        name: RoutesName.registerView,
+        builder: (BuildContext context, GoRouterState state) {
+          return const AuthView();
+        },
+      ),
     ],
   );
 }
